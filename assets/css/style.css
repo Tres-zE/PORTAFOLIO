@@ -1,0 +1,27 @@
+:root{
+    --bg-white-one: #f2f2fc;
+    --bg-white-two: #fdf9ff;
+    --bg-white-tree: #e8dfec;
+
+    --text-black-one: #302e4d;
+    --text-black-two: #504e70;
+
+}
+
+body{
+
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+::before, ::after{
+    box-sizing: border-box;
+}

@@ -1,0 +1,36 @@
+.aside{
+    width: 275px;
+    background: var(--bg-white-two);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aside .logo{
+    position: absolute;
+    top: 50px;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+ul{
+    list-style: none;
+}
+
+.section{
+    background: var(--bg-white-one);
+    min-height: 100vh;
+    display: block;
+    position: fixed;
+    left: 275px;
+    right: 0;
+    top: 0;
+    z-index: 0;
+    opacity: 1;
+}
