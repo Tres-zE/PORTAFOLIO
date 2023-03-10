@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Great+Vibes&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
 :root{
     --bg-white-one: #f2f2fc;
     --bg-white-two: #fdf9ff;
@@ -9,9 +11,9 @@
 }
 
 body{
-
     line-height: 1.5;
     font-size: 18px;
+    font-family: 'Poppins' sans-serif;
 }
 
 *{
