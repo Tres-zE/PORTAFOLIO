@@ -10,6 +10,10 @@
     opacity: 1;
 }
 
+.hidden{
+    display: none !important;
+}
+
 .padd-15{
     padding-left: 15px;
     padding-right: 15px;
@@ -107,8 +111,8 @@ h3.my-profession{
     width: 80px;
     border-top: 10px solid var(--skin-color);
     border-left: 10px solid var(--skin-color);
-    left: 580px;
-    top: -30px;
+    left: 550px;
+    top: -50px;
 }
 
 
