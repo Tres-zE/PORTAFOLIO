@@ -84,8 +84,8 @@
     margin-top: 40px;
 } */
 .personal-info{
-    flex: 0 0 60%;
-    max-width: 60%;
+    flex: 0 0 70%;
+    max-width: 70%;
     margin-top: 40px;
 }
 /*--------------------------------------------------------------------*/
@@ -134,8 +134,8 @@
     margin-top: 40px;
 }  */
 .skills{
-    flex: 0 0 40%;
-    max-width: 40%;
+    flex: 0 0 30%;
+    max-width: 30%;
     margin-top: 40px;
 }
 /*--------------------------------------------------------------------*/
@@ -154,6 +154,98 @@
     text-transform: capitalize;
 }
 /*--------------------------------------------------------------------*/
+/*o solo .education,.experience y el contenido es el mismo*/
+.about .about-content .education,
+.about .about-content .experience{
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-top: 30px;
+}
 /*--------------------------------------------------------------------*/
+/*o solo .title y el contenido es el mismo*/
+.about .about-content h3.title{
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: var(--text-black-two);
+}
 /*--------------------------------------------------------------------*/
+/*o solo .timeline-bpx y el contenido es el mismo*/
+.about .about-content .timeline-box{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
 /*--------------------------------------------------------------------*/
+/*o solo .timeline-bpx y el contenido es el mismo*/
+.about .about-content .timeline{
+    background-color: var(--bg-white-two);
+    padding: 30px 15px;
+    border: 1px solid var(--bg-white-tree);
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+}
+/*--------------------------------------------------------------------*/
+/*o solo .timeline-item y el contenido es el mismo*/
+.about .about-content .timeline .timeline-item{
+    position: relative;
+    padding-left: 37px;
+    padding-bottom: 50px;
+}
+/*--------------------------------------------------------------------*/
+/*o solo .timeline-item:last-child y el contenido es el mismo*/
+.about .about-content .timeline .timeline-item:last-child{
+    padding-bottom: 0;
+}
+/*--------------------------------------------------------------------*/
+/*o solo .timeline-item::before y el contenido es el mismo, linea vertical roja*/
+.about .about-content .timeline .timeline-item::before{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    left: 7px;
+    top: 0;
+    background-color: var(--skin-color);
+}
+/*--------------------------------------------------------------------*/
+/*o solo .circle-dot y el contenido es el mismo, para el circulo rojo*/
+.about .about-content .timeline .circle-dot{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: var(--skin-color);
+}
+/*--------------------------------------------------------------------*/
+/*o solo .timeline-date y el contenido es el mismo*/
+.about .about-content .timeline .timeline-date{
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: var(--text-black-two);
+}
+/*--------------------------------------------------------------------*/
+/*o solo .fa y el contenido es el mismo*/
+.about .about-content .timeline .timeline-date .fa{
+    margin-right: 5px;
+}
+/*--------------------------------------------------------------------*/
+/*o solo .timeline-title y el contenido es el mismo*/
+.about .about-content .timeline .timeline-title{
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    color: var(--text-black-one);
+}
+/*--------------------------------------------------------------------*/
+/*o solo .timeline-text y el contenido es el mismo*/
+.about .about-content .timeline .timeline-text{
+    line-height: 25px;
+    font-size: 16px;
+    text-align: justify;
+    color: var(--text-black-two);
+}
