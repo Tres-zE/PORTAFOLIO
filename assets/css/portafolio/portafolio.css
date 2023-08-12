@@ -1,0 +1,11 @@
+/*o solo .portafolio-heading, el contenido es el mismo*/
+.portafolio .portafolio-heading{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+/*o solo la clase de h2, el contenido es el mismo*/
+.portafolio .portafolio-heading h2{
+    color: var(--text-black-two);
+    font-weight: 500;
+}
