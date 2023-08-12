@@ -1,11 +1,36 @@
+.portafolio .container{
+    padding-bottom: 40px;
+}
 /*o solo .portafolio-heading, el contenido es el mismo*/
 .portafolio .portafolio-heading{
     flex: 0 0 100%;
     max-width: 100%;
+    margin-bottom: 40px;
 }
 
 /*o solo la clase de h2, el contenido es el mismo*/
 .portafolio .portafolio-heading h2{
     color: var(--text-black-two);
     font-weight: 500;
+}
+
+/*o .portafolio-item, el contenido es el mismo*/
+.portafolio .portafolio-item{
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    margin-bottom: 30px;
+}
+
+/*o ..portafolio-item-inner, el contenido es el mismo*/
+.portafolio .portafolio-item-inner{
+    border: 6px solid var(--bg-white-tree);
+    border-radius: 10px;
+    overflow: hidden; /*para que no se salga del div*/
+    cursor: pointer;
+}
+
+/*o ..portafolio-item-inner, el contenido es el mismo*/
+.portafolio .portafolio-item-inner .portafolio-img img{
+    width: 100%;
+    display: block;
 }
