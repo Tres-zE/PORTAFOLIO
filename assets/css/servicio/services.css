@@ -1,0 +1,30 @@
+.service .service-item{
+    margin-bottom: 30px;
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+}
+
+/*o solo .service-item-inner, el contenido es el mismo*/
+.service .service-item .service-item-inner{
+    background-color: var(--bg-white-two);
+    border: 1px solid var(--bg-white-tree);
+    border-radius: 10px;
+    padding: 30px 15px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+/*o solo .service-item-inner:hover, el contenido es el mismo*/
+.service .service-item .service-item-inner:hover{
+    box-shadow: 0 0 20px rgba(48, 46, 77, 0.2);
+}
+
+/*o solo .icon, el contenido es el mismo*/
+.service .service-item .service-item-inner .icon{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    display: block;
+    margin: 0 auto 30px;
+    background-color: red;
+}
