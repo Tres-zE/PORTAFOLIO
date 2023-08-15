@@ -67,3 +67,18 @@
     color: var(--text-black-one);
     line-height: 25px;
 }
+
+/*====== responsive service ======*/
+@media (max-width:991px){
+    .service .service-item{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width:767px){
+    .service .service-item{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}

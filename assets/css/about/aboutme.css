@@ -250,18 +250,28 @@
     color: var(--text-black-two);
 }
 
-/*====== responsive aside ======*/
+/*====== responsive aboutme ======*/
 @media (max-width: 1199px){
-    .aside{
-        left: -270px;
-    }
-
-    .main-content{
-        padding-left: 0;
-    }
-
     .about .about-content .personal-info .info-item p span{
         display: block;
         margin-left: 0;
+    }
+}
+
+/* @media (max-width:991px){
+    .about .about-content .education,
+    .about .about-content .experience {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+} */
+
+@media (max-width:767px){
+    .about .about-content .education,
+    .about .about-content .experience,
+    .about .about-content .skills,
+    .about .about-content .personal-info{
+        flex: 0 0 100%;
+        max-width: 100%;
     }
 }

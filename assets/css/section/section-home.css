@@ -126,3 +126,19 @@ h3.my-profession{
     border-radius: 5px;
 }
 
+
+/*====== responsive home ======*/
+@media (max-width:991px){
+    .main-content{
+        padding-left: 0;
+    }
+
+    .home .home-info{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .home .home-img{
+        display: none;
+    }
+}
