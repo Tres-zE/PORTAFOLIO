@@ -7,7 +7,15 @@
 
     --text-black-one: #302e4d;
     --text-black-two: #504e70;
+}
 
+body.dark{
+    --bg-white-one: #151515;
+    --bg-white-two: #222222;
+    --bg-white-tree: #393939;
+
+    --text-black-one: #ffffff;
+    --text-black-two: #e9e9e9;
 }
 
 body{
