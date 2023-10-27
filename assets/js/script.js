@@ -9,7 +9,7 @@ var typed = new Typed('.typing', {
 })
 
 /*=========================== Aside =========================== */
-//al momento de seleccionar una seccion cambie de color 
+//al momento de seleccionar una seccion cambia de color 
 const nav = document.querySelector(".nav"),
       navList = nav.querySelectorAll("li"),
       totalNavList = navList.length;
@@ -22,5 +22,11 @@ const nav = document.querySelector(".nav"),
                 navList[j].querySelector("a").classList.remove("active")
             }
             this.classList.add("active")
+            showSection(this);
         })
+      }
+
+      function showSection(element){
+        const target = element.getAttribute("href").split("#")[1];
+        
       }
