@@ -170,3 +170,9 @@ h3.my-profession{
         display: none;
     }
 }
+
+@media (max-width: 1199px){
+    .main-content{
+        padding-left: 0;
+    }
+}
