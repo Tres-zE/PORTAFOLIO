@@ -64,6 +64,12 @@
 .resaltar{
     color: var(--skin-color);
 }
+
+.subtitle{
+    color: var(--skin-color);
+    font-size: 20px;
+    font-weight: 700;
+}
 /*--------------------------------------------------------------------*/
 .about .about-content .about-text .text{
     font-size: 16px;
