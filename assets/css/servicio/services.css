@@ -27,7 +27,7 @@
 .service .service-item .service-item-inner .icon{
     height: 60px;
     width: 60px;
-    border-radius: 50px;
+    border-radius: 50%;
     display: block;
     margin: 0 auto 30px;    
     text-align: center;
