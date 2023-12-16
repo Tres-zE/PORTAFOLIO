@@ -8,14 +8,15 @@
     display: block;
     padding: 0 30px;
     opacity: 1;
-    /*position: fixed;
+    /* position: fixed;
      left: 270px; 
     top: 0;
     right: 0;
     bottom: 0;
-    z-index: 0;*/
+    z-index: 0; */
     overflow-y: auto;
     overflow-x: hidden;
+    transition: all 0.3s ease;
 }
 
 .section.back-section{
@@ -174,5 +175,9 @@ h3.my-profession{
 @media (max-width: 1199px){
     .main-content{
         padding-left: 0;
+    }
+
+    .section .container{
+        padding-top: 70px;
     }
 }

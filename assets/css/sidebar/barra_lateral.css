@@ -11,6 +11,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.3s ease;
 }
 
 .aside .logo{
@@ -69,6 +70,7 @@
     display: none;
     align-items: center;
     justify-content: center;
+    transition: all 0.3s ease;
 }
 
 .aside .nav-toggler span{
@@ -77,6 +79,10 @@
     background: var(--skin-color);
     display: inline-block;
     position: relative;
+}
+
+.aside .nav-toggler.open span{
+    background-color: transparent;
 }
 
 .aside .nav-toggler span::before{
@@ -89,6 +95,11 @@
     left: 0;
 }
 
+.aside .nav-toggler.open span::before{
+    transform: rotate(45deg);
+    top: 0;
+}
+
 .aside .nav-toggler span::after{
     content: '';
     height: 2px;
@@ -97,6 +108,11 @@
     position: absolute;
     top: 6px;
     left: 0;
+}
+
+.aside .nav-toggler.open span::after{
+    transform: rotate(-45deg);
+    top: 0;
 }
 
 .aside .nav{
