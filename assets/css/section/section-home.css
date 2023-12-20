@@ -1,6 +1,6 @@
- .main-content{
+ /* .main-content{
     padding-left: 270px;
-}  
+}   */
 
 .section{
     background: var(--bg-white-one);
@@ -8,8 +8,8 @@
     display: block;
     padding: 0 30px;
     opacity: 1;
-   position: fixed;
-    /* padding-left: 270px;*/ 
+    position: fixed;
+    left: 270px;
     top: 0;
     right: 0;
     bottom: 0;
@@ -175,6 +175,10 @@ h3.my-profession{
 @media (max-width: 1199px){
     .main-content{
         padding-left: 0;
+    }
+
+    .section{
+        left: 0;
     }
 
     .section .container{

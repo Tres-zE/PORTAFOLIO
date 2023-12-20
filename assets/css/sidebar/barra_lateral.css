@@ -164,9 +164,9 @@ ul{
         left: 300px;
     }
 
-    .section{
+    /* .section{
         left: 0;
-    }
+    } */
 
     .section.open{
         left: 270px;
