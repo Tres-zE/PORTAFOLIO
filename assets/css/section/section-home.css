@@ -157,7 +157,7 @@ h3.my-profession{
 
 
 /*====== responsive home ======*/
-@media (max-width:991px){
+@media (max-width:800px){
     .main-content{
         padding-left: 0;
     } 
@@ -171,6 +171,29 @@ h3.my-profession{
         /* display: none; */
         top: 55px;
         left: 15px;
+    }
+
+    .home-img::before,
+    .home-img::after {
+        display: none;
+    }
+}
+
+@media (max-width:920px){
+    .main-content{
+        padding-left: 0;
+    } 
+
+    .home .home-info{
+        /* flex: 0 0 100%; */
+        max-width: 100%;
+    }
+
+    .home .home-img{
+        /* display: none; 
+        top: 55px;
+        left: 15px;*/
+        right: 15px;
     }
 
     .home-img::before,
