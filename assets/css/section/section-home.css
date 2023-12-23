@@ -157,6 +157,41 @@ h3.my-profession{
 
 
 /*====== responsive home ======*/
+
+@media (max-width:500px){
+    .main-content{
+        padding-left: 0;
+    } 
+
+    .home .home-info{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    h3.hello {
+        font-size: 20px;
+        margin: 15px 0;
+    }
+
+    h3.hello span,
+    h3.my-profession {
+        font-size: 23px;
+        margin: 15px 0;
+    }
+
+    .home-info p{
+        margin-bottom: 50px;
+        font-size: 17px;
+    }
+
+    .home .home-img img {
+        height: 230px;
+        margin: auto;
+        border-radius: 5px;
+    }
+
+}
+
 @media (max-width:800px){
     .main-content{
         padding-left: 0;
