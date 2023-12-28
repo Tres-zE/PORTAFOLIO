@@ -281,3 +281,13 @@
         max-width: 100%;
     }
 }
+
+@media (max-width:500px){
+    .about .section-title h2{
+        font-size: 25px;
+    }
+
+    .about .about-content .about-text h3{
+        font-size: 20px;
+    }
+}

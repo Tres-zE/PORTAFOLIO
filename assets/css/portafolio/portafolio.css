@@ -49,3 +49,13 @@
         max-width: 100%;
     }
 }
+
+@media (max-width:500px){
+    .portafolio h2{
+        font-size: 25px;
+    }
+
+    .portafolio .portafolio-heading h2{
+        font-size: 20px;
+    }
+}
